@@ -483,7 +483,6 @@ width: 100%;
     background-color: #30261C;
     transform: scale(1.2);
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
 }
   /* styles for footer section  */
 footer{
@@ -523,6 +522,16 @@ footer{
 .footer-content div p{
     font-family: "poppins",sans-serif;
     font-family: 18px;
+    transition: all 0.3s ease-in-out;
+
+}
+.footer-content div>p:hover{
+   transform: scale(1.1);
+
+}
+.footer-content div>p>a:hover{
+    text-decoration: underline;
+    color: #18130e !important;
 }
 .footer-logo-container{
     align-self: flex-start;
